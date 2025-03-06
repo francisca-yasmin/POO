@@ -1,16 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.project2;
-
-/**
- *
- * @author francisca_yasmin
- */
 public class Project2 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       System.out.println("Começando a brincadeira de POO");
+
+        Caneta caneta1 = new Caneta();
+        caneta1.cor = "preto";
+        caneta1.tampada = true;
+        caneta1.carga = 100;
+
+        caneta1.status();
+
+        
     }
 }
