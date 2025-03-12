@@ -6,8 +6,10 @@ public class Project2 {
        System.out.println("Começando a brincadeira de POO");
 
         Caneta caneta1 = new Caneta();
-        caneta1.cor = "preto";
-        caneta1.tampada = true;
+        //caneta1.cor = "preto";
+        //caneta1.tampada = true;
+        caneta1.setCor("azul");
+        caneta1.getCor();
         caneta1.carga = 100;
 
         // Encapsulamento, herança e polimorfismo
