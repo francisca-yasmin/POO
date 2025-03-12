@@ -19,5 +19,18 @@ public class Caneta {
         System.out.println("A caneta esta: " + this.tampada);
         
     }
+
+    public void setCor(String newCor){
+        if (newCor != null && !newCor.isBlank()){
+            this.cor = newCor;
+        }else{
+            System.out.println("Nova cor inválida");
+        }
+    }
+    
+    public String getCor(){
+        return this.cor;
+    }
+
     
 }
