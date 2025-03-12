@@ -10,6 +10,11 @@ public class Project2 {
         caneta1.tampada = true;
         caneta1.carga = 100;
 
+        // Encapsulamento, herança e polimorfismo
+        /*
+        Encapsulamento -> Quando eu restrinjo a minha classe, protegendo os atributos/recursos.
+        */
+
         caneta1.status();
 
         
