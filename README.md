@@ -3,5 +3,5 @@
 >
 > GitHub do Professor de POO
 # Link do GitHub do professor
-[GitHub](https://github.com/P-Clevison/Aulas-POO)
+GitHub do professor com exercicios das aulas [GitHub](https://github.com/P-Clevison/Aulas-POO)
    
