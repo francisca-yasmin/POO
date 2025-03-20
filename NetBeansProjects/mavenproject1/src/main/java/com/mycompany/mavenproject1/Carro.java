@@ -32,10 +32,19 @@ public class Carro implements Veiculo {
 
     @Override
     public void acelerar() {
+        if(this.getParado() == true){
+            this.setParado(false);
+        }
+        this.setVelocidade(this.velocidade + 5);
     }
 
     @Override
     public void frear() {
+        if(this.getParado() == false){
+            this.setVelocidade(this.velocidade - 5);
+        }else{
+            this.setVelocidade(0);
+            this.setVelocidade(true);
     }
 
     @Override
